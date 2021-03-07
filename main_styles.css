@@ -1,0 +1,12 @@
+container {
+    display: flex;
+    justify-content: center;
+}
+
+section .img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 20%;
+    margin: 1em;
+    border: 5px 
+}
