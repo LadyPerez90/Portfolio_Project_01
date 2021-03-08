@@ -52,4 +52,54 @@ footer {
     align-items: center;
 }
 
-@media screen and (mini)
+@media only screen and (max-width: 680px) {
+    header{
+        font-size: .75rem;
+    }
+    .navbar-brand{
+        align-items: center;
+        font-size: 1rem;
+    }
+    .button{
+        size: medium;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    video {
+        height: 200px;
+        width: 30%;
+    }
+    table {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    th {
+        font-size: .75rem;
+    }
+    a {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header{
+        font-size: .75rem;
+    }
+    .navbar-brand{
+        font-size: .75rem;
+    }
+    th {
+        font-size: .5rem;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}

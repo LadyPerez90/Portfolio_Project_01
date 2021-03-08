@@ -64,3 +64,55 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 680px) {
+    header{
+        font-size: .75rem;
+    }
+    .navbar-brand{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    img {
+        width: 25%;
+    }
+    p{
+        font-size: .75rem;
+    }
+    a{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header{
+        font-size: .75rem;
+    }
+    .navbar-brand{
+        font-size: .75rem;
+    }
+    button {
+        size: 50px;
+    }
+    .Bio img {
+        width: 20%;
+    }
+    h3 {
+        font-size: .5rem;
+    }
+    p {
+        font-size: .25rem;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}
