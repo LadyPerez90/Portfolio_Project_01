@@ -1,0 +1,17 @@
+header {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(30, 28, 41);
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

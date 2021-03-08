@@ -1,0 +1,66 @@
+header {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-brand {
+    display: block;
+    float: none;
+    margin:0 auto;
+    text-align: center;
+}
+
+.navbar-nav {
+    display: block;
+    float: none;
+    margin:0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(30, 28, 41);
+}
+
+.Bio img {
+    display: block;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: rgb(0, 0, 121);
+}
+
+h3 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+
+p {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
