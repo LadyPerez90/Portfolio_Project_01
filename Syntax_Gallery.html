@@ -27,11 +27,14 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="Syntax_Gallery.html"><b>Gallery</b></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Syntax_Trivia.html"><b>Trivia</b></a>
+                        </li>
                     </ul>
                 </div>
                 </div>
             </nav>
-    </header>
+        </header>
 
         <h1>Twitch Emotes</h1>
 
@@ -100,7 +103,17 @@
                     <input type="text" id="email" name="email">
                 </div>
                 <div class="message">
-                    <textarea name="description"></textarea>
+                    <label for="emote">Type of Emote</label>
+                    <select id="emote" name="emote">
+                        <option value="hype">Hype</option>
+                        <option value="raid">Raid</option>
+                        <option value="love">Love</option>
+                        <option value="gg">GG</option>
+                        <option value="toxic">Toxic</option>
+                        <option value="crying">Crying</option>
+                        <option value="other">Other</option>
+                    </select>
+
                 </div>
                 <button type="submit" value="submit">Send</button>
             </form> 
